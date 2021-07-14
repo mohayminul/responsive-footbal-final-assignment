@@ -1,11 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
-    padding: 0;
+    padding: 0%;
     flex-wrap: wrap;
     margin: 0%;
 }
 
-
+/* topmost section formatting: start */
 .banner img{
     width: 538px;
     height: 456px;
@@ -19,12 +19,7 @@ body{
     background-color: darkblue;
     height: 750px;
     width: 1346px;
-}
-.top-section{
-    display: flex;
-    background-color: darkblue;
-    height: 750px;
-    width: 1348px;
+    padding: 2px;
 }
 
 .thumbnail img{
@@ -48,14 +43,7 @@ h1{
     font-size: 28px;
     font-weight: 700;
 }
-p{
-    font-size: 16;
-}
-article{
-    margin-top: 27px;
-}
 .button{
-    
     background-color: #E02C6D;
     color: #FFFFFF;
     width: 148px;
@@ -63,6 +51,20 @@ article{
     text-align: center;
     border: none; 
 }
+#button{
+    color: white;
+    text-decoration: none;
+}
+
+/* top most section format: end */
+/* Article section: start */
+p{
+    font-size: 16;
+}
+article{
+    margin-top: 27px;
+}
+
 
 .top-info:hover {
     transform: translateX(150px);
@@ -95,13 +97,21 @@ main{
     box-shadow: 1px 1px 20px rgba(231, 227, 227, 0.945);
     align-items: center;
 }
+
+.player-name{
+    text-decoration: none;
+    color: darkblue;
+}
+
 .football-logo img{
     width: 483.87px;
     height: 110px;
     margin-top: 58px;
     margin-bottom: 58px;
 }
+/* Article section: end */
 
+/* Socia media icons: start */
 .fa-youtube{
     color: red;
 }
@@ -124,6 +134,8 @@ main{
 .social-icon{
     text-align: center;
 }
+/* Social media icon: end */
+/* Copa America 2021 official logo ormatting: start */
 .copa-logo {
     position:relative;
     left:358px;top:0px;
@@ -131,6 +143,9 @@ main{
 h2{
     text-align: center;
 }
+/* Copa America 2021 official logo ormatting: end */
+
+/* sponsor section position format: start */
 .sponsors{
     text-align: center;
     font-size: 70px;
@@ -139,16 +154,26 @@ h2{
     margin-right: 50px;
 }
 .fab{
-    
     font-size: 60px;
     text-align: center;
 }
+/* sponsor section position format: end */
+ /* sponsor logo color format: start */
+
+.fa-fedex{
+    color: #FF6600;
+}
+.fa-apple-pay{
+    color: darkslateblue;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.fa-asymmetrik{
+    color: darkcyan;
+}
+/* sponsor logo color format: end */
+
 .miscellenous{
-    /* margin-top: 40px;
-    /* background-color: yellow;
-    width: 1320px; */
-    /* background-color: tomato;  */
-    border: 2px solid tomato;
     justify-content: center;
 }
 
