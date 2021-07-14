@@ -1,0 +1,157 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+
+.banner img{
+    width: 538px;
+    height: 456px;
+    padding-top: 153px;
+    padding-right: 140.99px;
+    padding-bottom: 86px;
+    padding-left: 180px;
+}
+.top-section{
+    display: flex;
+    background-color: darkblue;
+    height: 750px;
+    width: 1346px;
+}
+.top-section{
+    display: flex;
+    background-color: darkblue;
+    height: 750px;
+    width: 1348px;
+}
+
+.thumbnail img{
+    height: 256px;
+    width: 300px;
+}
+.heading{
+    width: 484px;
+    height: 230px;
+    
+    font-size: 64px;
+    font-weight: 700px;
+    color: #FFFFFF;
+}
+.top-info{
+    padding-top: 107px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+p{
+    font-size: 16;
+}
+article{
+    margin-top: 27px;
+}
+.button{
+    
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    width: 148px;
+    height: 40px;
+    text-align: center;
+    border: none; 
+}
+
+.top-info:hover {
+    transform: translateX(150px);
+    transition: width .5s, height .5s, transform 2s;   
+}
+.banner:hover{
+    transform: translateX(-150px);
+    transition: width .5s, height .5s, transform 2s;
+}
+.players-container{
+    width: 1050px;
+    height: 474;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 80px;
+}
+main{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    
+    padding: 15px;
+    height: 565px;
+    width: 330px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px rgba(231, 227, 227, 0.945);
+    align-items: center;
+}
+.football-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:#F56040
+}
+.fa-snapchat-square{
+    color:#FFFC00
+}
+.fa-twitter-square{
+    color:#1DA1F2
+}
+
+.fa-dribbble{
+    color:#ea4c89;
+}
+.fa-arrow-right{
+    color: #FFFFFF;
+}
+.social-icon{
+    text-align: center;
+}
+.copa-logo {
+    position:relative;
+    left:358px;top:0px;
+}
+h2{
+    text-align: center;
+}
+.sponsors{
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+.fab{
+    
+    font-size: 60px;
+    text-align: center;
+}
+.miscellenous{
+    /* margin-top: 40px;
+    /* background-color: yellow;
+    width: 1320px; */
+    /* background-color: tomato;  */
+    border: 2px solid tomato;
+    justify-content: center;
+}
+
+.bottom-section{
+    position: relative;
+    left:40px;top:0px;}
